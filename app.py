@@ -171,8 +171,9 @@ try:
         )
         st.altair_chart(ship_chart, use_container_width=True)
 
-
-
+    #summary
+    st.header("summary")
+    st.write()
 
 except Exception as e:
     st.exception(e)
